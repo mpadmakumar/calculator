@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>callculator</title>
+    <link rel="stylesheet" href="in.css">
+
+</head>
+<body >
+   <!-- <h1>Simple Calculator</h1>-->
+    <div class="callculator">
+        
+            <input type="text" placeholder="0" id="display" ><br>
+            <button onclick="del()" class="but" >del</button>
+           <button onclick="callculator('%')" class="but">%</button>
+            <button onclick="cleardisplay()" class="but"id="clearbtn">C</button>
+
+            <br>
+
+
+            <div class="button-warp">
+                <button onclick="callculator('*')" class="but" id="bu">*</button>
+                <button  onclick="callculator('/')" class="but" id="bu">/</button>
+                <button onclick="callculator('+')" class="but"id="bu">+</button>
+                <button onclick="callculator('-')" class="but" id="bu">-</button>
+            </div>
+            <div class="button-warp">
+                <button onclick="callculator(9)" class="but">9</button>
+                <button onclick="callculator(8)" class="but">8</button>
+                <button  onclick="callculator(7)"class="but">7</button>
+                <button  onclick="callculator(6)"class="but">6</button>
+            </div>
+            <div class="button-warp">
+                <button onclick="callculator(5)"class="but">5</button>
+                <button  onclick="callculator(4)"class="but">4</button>
+                <button onclick="callculator(3)"class="but">3</button>
+                <button onclick="callculator(2)"class="but">2</button>
+            </div>
+            <div class="button-warp">
+                <button onclick="callculator(1)"class="but">1</button>
+                <button onclick="callculator(0)"class="but">0</button>
+                <button onclick="callculator('.')"class="but">.</button>
+                <button onclick="callculate('=')"class="but" id="equalbtn">=</button>
+            </div>
+          
+
+    </div>
+</body>
+<script src="./callculate.js"></script>
+</html>

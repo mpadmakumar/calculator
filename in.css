@@ -1,0 +1,67 @@
+.callculator{
+    height: 385px;
+    width: 255px;
+    background-color:#201f1f;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 80px; 
+    border: 5px solid #201f1f;
+    
+
+}
+h1{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+    background-color:  greenyellow;
+    
+}
+#display{
+    margin-bottom:10px;
+    height: 100px;
+    width: 250px;
+border-radius: 5px;
+font-size: 30px;
+background-color:black;
+border: 2px solid black;
+color: white;
+text-align: right;
+
+}
+#display:focus{
+    outline: none;
+}
+.but{
+    border-radius: 9px;
+    width: 50px;
+    height: 40px;
+    margin-left: 8px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+#bu{
+background-color:orange;
+    color:white;
+    border:2pa solid orange;
+    font-size: 21px;
+}
+#equalbtn{
+    background-color:orangered;
+    color:white;
+    border: 2px solid orangered;
+}
+#clearbtn{
+    background-color:green;
+    border:1px solid green;
+    color: white;
+    width:105px ;
+}
+@media screen and (max-width:450px) {
+    .callculator{
+        margin-left: 0px;
+    }
+    
+}
