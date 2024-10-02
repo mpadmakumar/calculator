@@ -30,7 +30,7 @@ color: white;
 text-align: right;
 
 }
-#display:focus{
+#display,#btn,#bu:focus{
     outline: none;
 }
 .but{
